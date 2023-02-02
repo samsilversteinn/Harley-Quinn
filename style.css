@@ -1,0 +1,121 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper .multi_color_border {
+  width: 100%;
+  margin: 0px;
+  padding: 0px; 
+  height: 30px;
+  background: linear-gradient(
+    to right,
+    red 50%,
+    red 50%,
+    red 50%,
+    blue 50%,
+    blue 50%,
+    blue 50%
+  );
+}
+
+.title {
+font-family: 'Luckiest Guy', cursive;
+  font-size: 60px;
+  color:white;
+}
+.text-center {
+  color: white; 
+}
+.jumbo {
+  font-family: 'Alkalami', serif;
+}
+.title1 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 70px;
+  color:white;
+}
+.nav {
+  font-family: 'Alkalami', serif;
+  font-size: 20px;
+  color: white; 
+
+}
+.nav:hover {
+  color: red;
+  font-size: 20px;
+}
+
+body {
+  background-image: url("https://i.imgur.com/wDlEwWW.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 5px;
+}
+
+.bullet {
+font-family: 'Alkalami', serif;  font-size: 25px;
+  margin: 20px;
+  border:3px;
+  color: white;
+  border-style:solid; 
+  border-color: white; 
+  padding: 1em;
+  font-family: 'Alkalami', serif;
+}
+.carousel-inner {
+  background-color: red;
+}
+.exp {
+font-family: 'Alkalami', serif;
+  font-size: 20px;
+}
+.exp0 {
+  font-family: 'Alkalami', serif;
+  font-size: 18px;
+}
+.exp1 {
+  font-family: 'Alkalami', serif;
+  font-size: 50px;
+}
+.exp2 {
+  font-family: 'Alkalami', serif;
+  font-size: 40px;
+}
+.exp3 {
+  font-family: 'Alkalami', serif;
+  font-size: 30px;
+}
+.carousel-caption {
+  font-size: 2em;
+  right: 10%;
+  left: 60%;
+  top: 30%;
+  bottom: 30%;
+  text-align: left;
+  text-shadow: none;
+}
+.carousel-indicators {
+  font-size: 2em;
+  bottom: -1%;
+  text-align: left;
+  text-shadow: none;
+}
+
+.nav-link{
+  color: red;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: blue;
+    background-color: white;
+    border-color: red;
+}
